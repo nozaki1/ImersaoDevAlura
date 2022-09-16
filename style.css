@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(251.32deg, #33005a 36.73%, #011845 80.79%);
+  font-family: "Sen", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px 20vw;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  display: inline;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: 3px solid;
+}
+
+/* Desafio 1: Terminar todo o design que está no figma */
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(252.31deg, #33005a 15.71%, #011845 74.39%);
+  margin-top: 32px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-size: 48px;
+  font-weight: 700;
+  padding-inline-start: 40px;
+}
+
+li {
+  padding-left: 30px;
+  padding-right: 40px;
+  list-style-type: none;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 75px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/* Desafio 2: Adicionar suas redes sociais de forma que quem clique consiga abrí-las
+ */
+.foto-rede-social {
+  text-decoration: none;
+}
+
+.redes-sociais {
+  display: inline-block;
+  margin-left: 3vw;
+}
+
+.redes-sociais a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+i {
+  color: black;
+}
+
+/* Tema escuro */
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f6f6f6;
+  border: 3px solid #f7f7f7;
+}
+
+.dark i {
+  color: white;
+}
+
+.dark .projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+}
